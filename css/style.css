@@ -1,0 +1,128 @@
+/* font-family: 'Monoton', cursive;
+   font-family: 'Rubik Beastly', cursive;
+   font-family: 'Scheherazade', serif; */
+ *{
+    box-sizing:border-box; 
+} 
+
+body{
+    background: url("double-bubble-outline.png"); 
+    font-family: 'Scheherazade', serif; 
+    font-size:20px; 
+}
+.navigation{
+    display: flex;
+    justify-content:flex-end; 
+    align-items:center; 
+}
+
+body{
+
+    background: url("double-bubble-outline.png"); 
+    font-family: 'Scheherazade', serif;
+    padding:5%; 
+}
+
+.navigation a:first-child{
+    margin-right:auto; 
+    font-family:'Rubik Beastly', cursive ;
+    color:#33e045; 
+    font-size: 20px; 
+    text-decoration: none;
+}   
+ /* .navigation a:first-child{
+    margin-right:auto; 
+    font-family: 'Monoton', cursive;
+    color:#33e045; 
+    font-size: 25px; 
+    text-decoration: none;
+}  */
+
+.navigation a{
+    margin-left:6px; 
+    margin-right:6px; 
+    color:#33e045; 
+    text-decoration:none; 
+    font-size: 15px; 
+}
+
+.hero{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, 
+    rgba(2,0,36,1) 0%, 
+    rgba(51,224,69,1) 0%, 
+    rgba(0,212,255,1) 100%);
+
+  display:flex; 
+  justify-content:center; 
+  align-items:center; 
+  height:20vh;
+  margin-bottom:10%; 
+}
+
+.hero p{
+    font-size:2rem; 
+    color:#ffffff; 
+    /* padding: 20px; */
+    text-align: center;
+    
+}
+
+.main{
+    background:#1dedd4; 
+    padding:3%;
+
+    } 
+    section{
+        background:#1df66e; 
+        padding:3%; 
+        text-align: center;
+        margin-top:5%; 
+        margin-bottom:5%; 
+        /* color:white;  */
+      margin-left: auto;
+      margin-right: auto;
+    }
+h1{
+    text-align: center;
+}
+
+
+
+img{
+    height:20vh; 
+    width:30vh; 
+    flex-direction: row;
+    float: left;
+
+}
+
+.image-container{
+    padding:5%; 
+    color:bisque; 
+}
+
+ul li {
+    align-items: flex-start;
+    text-align: start;
+}
+
+form legend{
+    text-align: center;
+}
+
+form{
+    align-items: flex-start;
+    justify-content:space-evenly;
+}
+form p{
+    display:table; 
+}
+
+form label {
+    display:table-cell; 
+}
+
+form input{
+    display:table-cell; 
+}
